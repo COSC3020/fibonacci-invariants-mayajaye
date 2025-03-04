@@ -37,3 +37,9 @@ checking if fib(n) has been computed. If it has, the recursive calls will not be
 redundantly executed for n. And of course, n is already 'computed' if it is less
 than 2, so n must be greater than the base case for the recursive call to be 
 executed.
+
+"I certify that I have listed all sources used to complete this exercise,
+including the use of any Large Language Models. All of the work is my own, except
+where stated otherwise. I am aware that plagiarism carries severe penalties and
+that if plagiarism is suspected, charges may be filed against me without prior
+notice."

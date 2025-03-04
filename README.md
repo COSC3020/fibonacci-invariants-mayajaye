@@ -27,3 +27,13 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+An invariant for this implementation of a fibonacci function would be that n
+is greater than the base case and has yet to be computed. In a basic 
+fibonacci implementation (fib(n) = fib(n - 2) + fib(n - 1)), this invariant
+does not hold, as many redundant fibonacci values will be computed up to n. 
+On the other hand, when this program checks if fib(n) is in the array, it is 
+checking if fib(n) has been computed. If it has, the recursive calls will not be 
+redundantly executed for n. And of course, n is already 'computed' if it is less
+than 2, so n must be greater than the base case for the recursive call to be 
+executed.
